@@ -89,7 +89,7 @@ section{
     z-index: 999;
     background: var(--bg-color);
     width: 30rem;
-    border-right: var(--border);
+    /* border-right: var(--border); */
     height: 100%;
     padding:2rem;
     text-align: center;
@@ -227,7 +227,7 @@ section{
 .about .row{
     display: flex;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     gap:2rem;
 }
 
@@ -431,6 +431,7 @@ section{
     transform: translateY(-5rem);
     opacity: 0;
     transition-delay: .3s;
+    text-align: center
 }
 
 .portfolio .box-container .box:hover .content h3{
